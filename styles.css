@@ -1,0 +1,84 @@
+/* Universal Styles */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+body {
+    font-family: 'Lexend Mega', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Navigation Section */
+header h1{
+    margin-bottom: 0px;
+}
+nav span {
+    margin: 20px auto;
+}
+nav span a {
+    color: black;
+}
+
+/* Mission Section */
+#mission {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+    height: 300px;
+    margin-top: 40px;
+}
+.mission-container {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+.mission-container h2, h4 {
+    margin: 15px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    margin-top: 70px;
+}
+#portfolio .flex-container {
+    justify-content: space-around;
+}
+.portfolio-item{
+    align-items: center;
+}
+.portfolio-item img {
+    height: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.portfolio-item span {
+    font-weight: bold;
+    text-align: center;
+    width: 240px;
+}
+/* Team Section */
+.team-container {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    height: auto;
+}
+.team-item {
+    height: auto;
+    width: 250px;
+    padding-top: 15px;
+}
+.team-item img {
+    height: auto;
+    width: 200px;
+}
+.team-item h3, p {
+    color: white;
+}
+
+footer {
+    padding-top: 20px;
+}
